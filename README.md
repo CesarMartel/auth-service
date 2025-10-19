@@ -29,3 +29,63 @@ Antes de ejecutar el proyecto, asegúrate de tener instaladas las siguientes her
 
 La estructura general del proyecto sigue el siguiente esquema:
 
+auth-service/
+├── app/
+│ ├── auth_service/
+│ │ ├── settings.py
+│ │ ├── urls.py
+│ │ └── wsgi.py
+│ ├── users/
+│ │ ├── models.py
+│ │ ├── serializers.py
+│ │ ├── views.py
+│ │ └── urls.py
+│ ├── manage.py
+│ └── ...
+├── docker-compose.yml
+├── Dockerfile
+├── requirements.txt
+└── README.md
+
+
+---
+
+## Ejecución del Proyecto
+
+Para construir y ejecutar el microservicio, utiliza los siguientes comandos:
+
+```bash
+# Construir los contenedores
+docker-compose build
+
+# Iniciar los servicios
+docker-compose up
+
+El servicio estará disponible en el puerto configurado en el archivo docker-compose.yml (por defecto http://localhost:8000).
+Endpoints Principales
+Método	Endpoint	Descripción
+POST	/api/auth/register/	Registro de nuevos usuarios
+POST	/api/auth/login/	Inicio de sesión y obtención de tokens
+POST	/api/auth/refresh/	Renovación del token de acceso
+GET	/api/auth/profile/	Consulta del perfil de usuario autenticado
+Tecnologías Utilizadas
+
+    Backend: Django, Django REST Framework
+
+    Autenticación: JSON Web Tokens (JWT)
+
+    Base de Datos: PostgreSQL
+
+    Caché y Sesiones: Redis
+
+    Contenedores: Docker y Docker Compose
+
+Licencia
+
+Este proyecto se distribuye bajo los términos de la licencia MIT.
+Consulta el archivo LICENSE para más detalles.
+
+
+---
+
+¿Deseas que le agregue una sección opcional de **Instalación local sin Docker** (usando `venv` y `pip`)
