@@ -25,8 +25,6 @@ Antes de ejecutar el proyecto, asegúrate de tener instaladas las siguientes her
 
 ---
 
-## Estructura del Proyecto
-
 La estructura general del proyecto sigue el siguiente esquema:
 
 auth-service/
@@ -46,6 +44,7 @@ auth-service/
 ├── Dockerfile
 ├── requirements.txt
 └── README.md
+
 
 
 ---
@@ -79,3 +78,19 @@ Tecnologías Utilizadas
     Caché y Sesiones: Redis
 
     Contenedores: Docker y Docker Compose
+
+
+---
+```
+![Imagen de WhatsApp 2025-10-19 a las 02 03 36_87436436](https://github.com/user-attachments/assets/088faeab-7118-46e9-8026-3621878ad2b7)
+
+<img width="1514" height="893" alt="Captura de pantalla 2025-10-19 015422" src="https://github.com/user-attachments/assets/d8902a43-8b46-41c9-bf1b-6e53ac972796" />
+
+<img width="1237" height="697" alt="Captura de pantalla 2025-10-19 015838" src="https://github.com/user-attachments/assets/e9945148-3a46-4b72-9889-239219bcf324" />
+
+<img width="1506" height="686" alt="Captura de pantalla 2025-10-19 020038" src="https://github.com/user-attachments/assets/62118a08-e8b7-4cd5-a445-4ec60416bf82" />
+
+
+
+
+
