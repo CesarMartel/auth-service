@@ -1,0 +1,40 @@
+venv/
+env/
+.venv/
+
+# Archivos de entorno - NUNCA subas tus secretos
+.env
+.env.*
+.env.example
+
+# Archivos compilados de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
+*.swp
+
+# Archivos de base de datos local
+db.sqlite3
+db.sqlite3-journal
+
+# Archivos de Docker
+.dockerignore
+docker-compose.override.yml
+
+# Archivos de dependencias (si las gestionas localmente)
+/node_modules/
+/bower_components/
+
+# Archivos estáticos y de medios generados
+/staticfiles/
+/media/
+
+# Archivos de logs y tests
+*.log
+.coverage
+/htmlcov/
