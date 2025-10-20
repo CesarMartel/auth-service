@@ -1,7 +1,7 @@
 # Microservicio de Autenticación (auth-service)
 
 Este proyecto implementa un **microservicio de autenticación** desarrollado con **Django**, **Django REST Framework**, **JWT (JSON Web Tokens)**, **PostgreSQL** y **Redis**.  
-El servicio gestiona usuarios, registro, inicio de sesión y renovación de tokens JWT, siguiendo una arquitectura modular y escalable.
+El servicio gestiona usuarios, registro, inicio de sesión y renovación de tokens JWT, siguiendo una arquitectura modular y escalable uwu.
 
 ---
 
