@@ -26,8 +26,8 @@ El objetivo principal es construir un servicio autónomo que maneje toda la lóg
 ## 🏗️ Estructura del Proyecto
 
 El microservicio `auth-service` se encuentra contenido en su propia carpeta y utiliza archivos de configuración a nivel raíz para Docker Compose.
-auth-services
-|
+
+.
 ├── .env.example               # Plantilla de variables de entorno (no versionar)
 ├── README.md                  # Documentación del proyecto
 ├── docker-compose.yml         # Orquestación: auth, postgres, redis
@@ -52,3 +52,4 @@ auth-services
 │       ├── views.py           # Lógica de registro y endpoints
 │       └── tests.py
 └── .gitignore                 # Ignorar .env, __pycache__, etc.
+
